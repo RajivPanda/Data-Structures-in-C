@@ -63,13 +63,14 @@ int main()
             case 5:
             printf("The elements currently prresent in the array are:");
             display(arr);
+            break;
 
             default:
             printf("Please provide a valid input.");
         }
 
     printf("\nDo you want to try again?(Y/N)");
-    scanf("%c",&ch);
+    ch=getche();
     
     }while(ch=='y'||'Y');
 
