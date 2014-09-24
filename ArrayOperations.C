@@ -1,3 +1,4 @@
+/* This program is compiled using GCC compiler*/
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 5
